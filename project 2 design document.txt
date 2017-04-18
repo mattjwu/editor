@@ -1,0 +1,16 @@
+project 2 design document
+
+DoubleLinkedList
+add and remove method based on current cursor position
+moveCursorRight and moveCursorLeft method for right and left keyPresses
+
+setCursorLocation that will take in a Node and change the cursor to point to that node
+
+ArrayList of X,Y pairs that determines keeps track of where letters should be drawn on the screen
+ArrayList of TextBox objects that display the text and have getX and getY methods
+
+ArrayList that keeps track of the first item in the DoubleLinkedList on each line, calculated at Render time
+
+int that keeps track of the current line the cursor is on
+
+
